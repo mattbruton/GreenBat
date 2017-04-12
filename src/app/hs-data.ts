@@ -3072,6 +3072,7 @@ export function createCardList() {
             set: `GVG`,
             text: `Whenever a friendly Mech dies, gain +2/+2.`,
             type: `MINION`
+        }
 //         }, {
 //             artist: `Jim Nelson`,
 //             attack: 2,
@@ -22511,5 +22512,5 @@ export function createCardList() {
 //                 text: `Whenever your opponent casts a spell, summon a Burly Rockjaw Trogg.`,
 //                 type: `MINION`
 //             }
-        ]
+        ];
     }
