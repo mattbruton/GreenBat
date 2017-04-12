@@ -8,4 +8,5 @@ import { Card } from "app/model";
 })
 export class CardDetailComponent {
   @Input() card: Card;
+  showImage: boolean;
 }
