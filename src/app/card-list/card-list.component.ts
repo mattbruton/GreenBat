@@ -9,6 +9,7 @@ import { Card } from "app/model";
 })
 export class CardListComponent implements OnInit {
   cards: Card[];
+  selectedCard: Card;
   constructor(private dataService: DataService) { }
 
   ngOnInit() {

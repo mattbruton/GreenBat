@@ -1,3 +1,10 @@
 li {
     list-style-type: none;
 }
+
+.card-detail{
+    background-color: lightcoral;
+    &:nth-of-type(odd) {
+        background-color: coral;
+    }
+}

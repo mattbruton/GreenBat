@@ -1,5 +1,9 @@
-<ul>
-  <li *ngFor="let card of cards">
-    <hs-card-detail [card]="card"></hs-card-detail>
-  </li>
-</ul>
+<input type="text" [(ngModel)]="searchText">
+
+<div>
+  <ul *ngIf="searchText" fxLayout="column" fxLayoutAlign="start stretch">
+    <li *ngFor="let card of cards" class="card-detail">
+      <hs-card-list-detail *ngIf="card.name.toLowerCase().includes(searchText.toLowerCase())" [card]="card"></hs-card-list-detail>
+    </li>
+  </ul>
+</div>
