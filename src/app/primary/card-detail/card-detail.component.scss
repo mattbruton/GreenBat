@@ -1,0 +1,20 @@
+.detail {
+    height: 90vh;
+    text-align: center;
+    background-color: #E1E2E1;
+}
+
+.image {
+    display: block;
+    max-height: 300px;
+    margin: auto;
+}
+
+.image-sel {
+    @extend .image;
+    max-height: 350px;
+}
+
+h2 {
+    margin: 0;
+}

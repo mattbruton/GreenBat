@@ -1,8 +1,0 @@
-<div fxFlexLayout="row" fxLayoutAlign="space-between stretch">
-    <h4 fxFlex="40">{{card.name}}</h4>
-    <img class="image" *ngIf="showImage" src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/{{card.id}}.png" alt="Image of {{card.name}}">
-    <div fxFlex="20">
-        <label for="cardImage">Show Image</label>
-        <input name="cardImage" type="checkbox" [(ngModel)]="showImage"/>
-    </div>
-</div>

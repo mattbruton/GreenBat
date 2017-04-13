@@ -6,17 +6,21 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardListComponent } from './card-list/card-list.component';
+import { CardListComponent } from './primary/card-list/card-list.component';
 import { DataService } from "app/data.service";
-import { CardListDetailComponent } from './card-list-detail/card-list-detail.component';
-import { CardDetailComponent } from './card-detail/card-detail.component';
+import { CardDetailComponent } from './primary/card-detail/card-detail.component';
+import { HeaderComponent } from './header/header.component';
+import { PrimaryComponent } from './primary/primary.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardListComponent,
-    CardListDetailComponent,
-    CardDetailComponent
+    CardDetailComponent,
+    HeaderComponent,
+    PrimaryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
