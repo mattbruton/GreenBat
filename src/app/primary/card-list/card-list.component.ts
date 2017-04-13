@@ -1,6 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { DataService } from "app/data.service";
-import { Card } from "app/model";
+import { DataService } from 'app/data.service';
+import { Card } from 'app/model';
 
 @Component({
   selector: 'hs-card-list',
@@ -19,7 +19,7 @@ export class CardListComponent implements OnInit {
 
   selectCard(str: string) {
     const searched = this.cards.map( (card) => {
-      if (str.toLowerCase().includes(card.name.toLowerCase())){
+      if (str.toLowerCase().includes( card.name.toLowerCase() )) {
         console.log(card);
         this.selectedCard = card;
         return card;
