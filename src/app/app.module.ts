@@ -7,11 +7,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardListComponent } from './primary/card-list/card-list.component';
-import { DataService } from 'app/data.service';
 import { CardDetailComponent } from './primary/card-detail/card-detail.component';
 import { HeaderComponent } from './header/header.component';
 import { PrimaryComponent } from './primary/primary.component';
 import { FooterComponent } from './footer/footer.component';
+
+import { DataService } from 'app/shared/data.service';
 
 @NgModule({
   declarations: [

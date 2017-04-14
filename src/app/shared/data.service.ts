@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { createCardList } from './hs-data';
+import { createCardList } from '../hs-data';
 
 @Injectable()
 export class DataService {
