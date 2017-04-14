@@ -1,6 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { DataService } from 'app/data.service';
-import { Card } from 'app/model';
+import { DataService } from 'app/shared/data.service';
+import { Card } from 'app/shared/model';
 
 @Component({
   selector: 'hs-card-list',
