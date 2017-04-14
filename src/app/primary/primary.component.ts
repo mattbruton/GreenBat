@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Card } from "app/shared/model";
+import { Card } from 'app/shared/model';
 
 @Component({
   selector: 'hs-primary',
