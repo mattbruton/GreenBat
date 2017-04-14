@@ -1,10 +1,7 @@
-<div fxLayout="row" fxLayoutAlign="space-between stretch">
-  <hs-card-detail [selectedCard]="selectedCard" fxFlex="100%"></hs-card-detail>
-  <div fxFlex="100%">
-    <label for="name-input">Search by Name</label>
-    <input type="text" list="potentialMatches" name="name-input" placeholder="Card Name" (input)="selectCard($event.target.value)">
-    <datalist id="potentialMatches">
-      <option *ngFor="let card of cards" value={{card.name}}>
-    </datalist>
-  </div>
+<div class="primary_container" fxLayout="column" fxLayoutAlign="start">
+  <label for="card-name">Search by Name</label>
+  <input type="text" #searchInput list="potentialMatches" name="card-name" placeholder="Card Name" (input)="searchCard(searchInput.value)">
+  <datalist id="potentialMatches">
+    <option *ngFor="let card of cards" value={{card.name}}>
+  </datalist>
 </div>

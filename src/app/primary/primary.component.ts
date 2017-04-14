@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Card } from "app/model";
 
 @Component({
   selector: 'hs-primary',
   templateUrl: './primary.component.html',
   styleUrls: ['./primary.component.scss']
 })
-export class PrimaryComponent implements OnInit {
+export class PrimaryComponent {
+  @Input() selectedCard: Card;
 
-  constructor() { }
-
-  ngOnInit() {
+  passCardToDetailView(card) {
+    this.selectedCard = card;
   }
-
 }

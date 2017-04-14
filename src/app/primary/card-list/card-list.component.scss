@@ -1,9 +1,20 @@
+.primary_container {
+    background-color: #000;
+    min-height: 90vh;
+    text-align: center;
+}
+
 li {
     list-style-type: none;
 }
 
+label {
+    color: #fff;
+}
+
 input {
     line-height: 2.9;
+    text-align: center;
 }
 
 .card-detail{
