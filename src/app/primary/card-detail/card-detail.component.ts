@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Card } from "app/model";
+import { Card } from 'app/model';
 
 @Component({
   selector: 'hs-card-detail',
@@ -7,6 +7,5 @@ import { Card } from "app/model";
   styleUrls: ['./card-detail.component.scss']
 })
 export class CardDetailComponent {
-  @Input() card: Card;
-  showImage: boolean;
+  @Input() selectedCard: Card;
 }

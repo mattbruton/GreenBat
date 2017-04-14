@@ -1,0 +1,7 @@
+<div class="primary_container" fxLayout="column" fxLayoutAlign="start">
+  <label for="card-name">Search by Name</label>
+  <input type="text" #searchInput list="potentialMatches" name="card-name" placeholder="Card Name" (input)="searchCard(searchInput.value)">
+  <datalist id="potentialMatches">
+    <option *ngFor="let card of cards" value={{card.name}}>
+  </datalist>
+</div>

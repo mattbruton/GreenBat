@@ -1,0 +1,4 @@
+<div fxFlex="90%" fxLayout="column wrap" fxLayoutAlign="center stretch">
+  <hs-card-detail [selectedCard]="selectedCard"></hs-card-detail>
+  <hs-card-list class="content" fxFlex="100%" (selectCard)="passCardToDetailView($event)"></hs-card-list>
+</div>
