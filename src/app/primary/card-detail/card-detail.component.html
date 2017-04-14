@@ -1,13 +1,15 @@
-<div class="detail">
-  <div *ngIf="selectedCard; else noCard">
-    <img class="image-sel" src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/{{selectedCard.id}}.png" alt="Image of {{selectedCard.name}}">
-    <h4>Flavor Text:</h4>
-    <h5>{{selectedCard.flavor}}</h5>
-  </div>
-  <ng-template #noCard>
-    <div>
-      <img class="image" src="https://media-hearth.cursecdn.com/attachments/39/693/cardback_29.png" alt="Hearthstone Card Back">
-      <h2>Use the search tools to find a card.</h2>
+<div class="container">
+  <div class="detail">
+    <div *ngIf="selectedCard; else noCard">
+      <img class="image-sel" src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/{{selectedCard.id}}.png" alt="Image of {{selectedCard.name}}">
+      <h4>Flavor Text:</h4>
+      <h5>{{selectedCard.flavor}}</h5>
     </div>
-  </ng-template>
+    <ng-template #noCard>
+      <div>
+        <img class="image" src="https://media-hearth.cursecdn.com/attachments/39/693/cardback_29.png" alt="Hearthstone Card Back">
+        <h2>Use the search tools to find a card.</h2>
+      </div>
+    </ng-template>
+  </div>
 </div>
