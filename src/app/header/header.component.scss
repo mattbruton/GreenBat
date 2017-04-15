@@ -1,7 +1,9 @@
+@import '~sass/variables.scss';
+
 .primary_container {
-  background-color: #A191E7;
+  background-color: $light-purple;
 }
 
 .bar {
-    background-color: #6E58CE;
+    background-color: $dark-purple;
 }
