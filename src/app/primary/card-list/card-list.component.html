@@ -4,4 +4,10 @@
   <datalist id="potentialMatches">
     <option *ngFor="let card of cards" value={{card.name}}>
   </datalist>
+
+  <label fxFlex="0 0 20px" for="cost">Cost</label>
+  <select fxFlex="0 0 20px" name="cost">
+    <option value="1">1</option>
+    <option value="2">2</option>
+  </select>
 </div>

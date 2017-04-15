@@ -1,18 +1,20 @@
-h3 {
-  color: white;
-  margin: 0;
-  text-align: right;
-}
-
-.title {
-  text-align: left;
-}
-
 .header {
-  background-color: #754144;
+  background-color: #A191E7;
   min-width: 315px;
 }
 
-.upper-bar {
-  background-color: #47181d;
+.header-search {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    color: #6d6d6d;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    border: solid white;
+    box-shadow: none;
+    outline: none;
+    text-align: center;
+}
+
+.bar {
+  background-color: #c0c0c0;
 }
