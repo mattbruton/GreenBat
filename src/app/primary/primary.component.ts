@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Card } from 'app/shared/model';
 
 @Component({
-  selector: 'hs-primary',
+  selector: 'gb-primary',
   templateUrl: './primary.component.html',
   styleUrls: ['./primary.component.scss']
 })
