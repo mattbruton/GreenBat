@@ -1,41 +1,42 @@
-.detail {
-    height: 90vh;
-    text-align: center;
-}
+// @import '~sass/variables.scss';
 
-.container {
-    background-color: #ddd;
-}
+// .detail {
+//     // height: 84.5vh;
+//     background-color: #ddd;
+// }
 
-.image {
-    display: block;
-    max-height: 245px;
-    margin: auto;
-    padding-top: 15vh;
-    padding-right: 1vw;
-}
+// .image {
+//     max-height: 150px;
+//     margin: auto;
+//     padding: 5% 0 0 1%;
 
-.image-sel {
-    @extend .image;
-    max-height: 300px;
-    padding-top: 12vh;
-    padding-right: 0.5vw;
-}
+//     @media #{$gt-xsmall} {
+//         max-height: 200px;
 
-h2 {
-    padding-top: 20px;
-    margin: 0;
-    color: white;
-}
+//     }
+// }
 
-.input-search {
-    line-height: 1.5em;
-    font-size: 1.2em;
-    color: #6d6d6d;
-    background-color: #eeeeee;
-    border-radius: 10px;
-    border: solid white;
-    box-shadow: none;
-    outline: none;
-    text-align: center;
-}
+// .image-sel {
+//     @extend .image;
+//     max-height: 300px;
+//     padding-top: 12vh;
+//     padding-right: 0.5vw;
+// }
+
+// h2 {
+//     padding-top: 20px;
+//     margin: 0;
+//     color: white;
+// }
+
+// .input-search {
+//     line-height: 1.5em;
+//     font-size: 1.2em;
+//     color: #6d6d6d;
+//     background-color: #eeeeee;
+//     border-radius: 10px;
+//     border: solid white;
+//     box-shadow: none;
+//     outline: none;
+//     text-align: center;
+// }

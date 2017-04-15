@@ -13,6 +13,7 @@ import { PrimaryComponent } from './primary/primary.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { DataService } from 'app/shared/data.service';
+import { LandingComponent } from './primary/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DataService } from 'app/shared/data.service';
     CardDetailComponent,
     HeaderComponent,
     PrimaryComponent,
-    FooterComponent
+    FooterComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,

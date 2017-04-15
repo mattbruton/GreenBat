@@ -1,0 +1,14 @@
+@import '~sass/variables.scss';
+
+.container--landing {
+    background-color: #ddd;
+}
+
+.logo--landing {
+    max-height: 150px;
+    padding: 5% 0 0 1%;
+
+    @media #{$gt-xsmall} {
+        max-height: 200px;
+    }
+}

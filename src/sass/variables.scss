@@ -1,3 +1,4 @@
 // Color Variables
-$dark-purple: #6E58CE;
-$light-purple: #A191E7;
+@import './color-vars.scss';
+// Media Query Breakpoints
+@import './breakpoint-vars.scss';
