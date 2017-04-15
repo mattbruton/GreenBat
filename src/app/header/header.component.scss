@@ -1,18 +1,9 @@
-h3 {
-  color: white;
-  margin: 0;
-  text-align: right;
+@import '~sass/variables.scss';
+
+.primary_container {
+  background-color: $light-purple;
 }
 
-.title {
-  text-align: left;
-}
-
-.header {
-  background-color: #754144;
-  min-width: 315px;
-}
-
-.upper-bar {
-  background-color: #47181d;
+.bar {
+    background-color: $dark-purple;
 }
