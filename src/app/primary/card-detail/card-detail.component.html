@@ -1,17 +1,16 @@
-<div class="container">
-  <div class="detail">
-    <div *ngIf="selectedCard; else noCard">
-      <img class="image-sel" src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/{{selectedCard.id}}.png" alt="Image of {{selectedCard.name}}">
-      <h4>Flavor Text:</h4>
-      <h5>{{selectedCard.flavor}}</h5>
-    </div>
-    <ng-template #noCard>
-      <div>
-        <img class="image" src="../../../assets/BigGreenBat1.png" alt="Hearthstone Card Back">
-      </div>
-    </ng-template>
+<div fxFlex="100%" class="detail" fxLayout="column" fxLayoutAlign="start center">
+  <div  *ngIf="selectedCard; else noCard">
+    <img class="image-sel" src="http://media.services.zam.com/v1/media/byName/hs/cards/enus/{{selectedCard.id}}.png" alt="Image of {{selectedCard.name}}">
+    <h4>Flavor Text:</h4>
+    <h5>{{selectedCard.flavor}}</h5>
   </div>
+  <ng-template #noCard>
+    <div>
+      <img class="image" src="../../../assets/BigGreenBat1.png" alt="Hearthstone Card Back">
+    </div>
+  </ng-template>
 </div>
+
 
 
 <!--<input class="header-search" fxFlex="250px" fxFlex.gt-xs="30.5%" type="text" [disabled]="isSearchDisabled" >-->
