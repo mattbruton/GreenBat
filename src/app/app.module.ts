@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DataService } from 'app/shared/data.service';
 import { LandingComponent } from './primary/landing/landing.component';
 import { HeaderBrandingComponent } from './header/header-branding/header-branding.component';
+import { HeaderColorBorderComponent } from './header/header-color-border/header-color-border.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HeaderBrandingComponent } from './header/header-branding/header-brandin
     PrimaryComponent,
     FooterComponent,
     LandingComponent,
-    HeaderBrandingComponent
+    HeaderBrandingComponent,
+    HeaderColorBorderComponent
   ],
   imports: [
     BrowserModule,
