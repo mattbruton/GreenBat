@@ -4,7 +4,7 @@
 }
 
 .container {
-    background-color: #5c5c5c;
+    background-color: #ddd;
 }
 
 .image {
@@ -25,5 +25,17 @@
 h2 {
     padding-top: 20px;
     margin: 0;
-    color: black;
+    color: white;
+}
+
+.input-search {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    color: #6d6d6d;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    border: solid white;
+    box-shadow: none;
+    outline: none;
+    text-align: center;
 }
