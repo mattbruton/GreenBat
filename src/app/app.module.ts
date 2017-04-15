@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ClarityModule } from 'clarity-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,8 @@ import { FooterComponent } from './footer/footer.component';
 
 import { DataService } from 'app/shared/data.service';
 import { LandingComponent } from './primary/landing/landing.component';
+import { HeaderBrandingComponent } from './header/header-branding/header-branding.component';
+import { HeaderColorBorderComponent } from './header/header-color-border/header-color-border.component';
 
 @NgModule({
   declarations: [
@@ -23,14 +26,17 @@ import { LandingComponent } from './primary/landing/landing.component';
     HeaderComponent,
     PrimaryComponent,
     FooterComponent,
-    LandingComponent
+    LandingComponent,
+    HeaderBrandingComponent,
+    HeaderColorBorderComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    ClarityModule.forRoot()
   ],
   providers: [
     DataService

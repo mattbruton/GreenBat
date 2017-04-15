@@ -4,11 +4,17 @@
     background-color: #ddd;
 }
 
-.logo--landing {
-    max-height: 150px;
-    padding: 5% 0 0 1%;
-
-    @media #{$gt-xsmall} {
-        max-height: 200px;
-    }
+.container--dialogue {
+    background-color: white;
 }
+
+.test {
+    background-color: red;
+    min-height: 50px;
+}
+
+// .logo--landing {
+//     @media #{$gt-xsmall} {
+//         //max-height: 250px;
+//     }
+// }
