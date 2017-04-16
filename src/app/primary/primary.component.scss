@@ -1,3 +1,7 @@
+@import '~sass/variables.scss';
+
 .container--primary {
-    height: 84.5vh;
+    height: 85.5vh;
+    width: 100vw;
+    background-color: $light-purple;
 }

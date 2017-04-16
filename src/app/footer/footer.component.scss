@@ -1,9 +1,9 @@
 @import '~sass/variables.scss';
 
 .footer {
-    background-color: #98E4A9;
-    height: 5vh;
-    @media #{$small}, #{$xsmall} {
-      height: 7.5vh;
-    }
+  background-color: $dark-purple;
+  height: 5vh;
+  @media #{$small}, #{$xsmall} {
+    height: 7.5vh;
+  }
 }
