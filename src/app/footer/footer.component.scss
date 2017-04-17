@@ -1,11 +1,9 @@
+@import '~sass/variables.scss';
+
 .footer {
-    background-color: #6E58CE;
-}
-
-.logo--social {
-  height: 20px;
-}
-
-.bar {
-  background-color: #c0c0c0;
+  background-color: $dark-purple;
+  height: 5vh;
+  @media #{$small}, #{$xsmall} {
+    height: 7.5vh;
+  }
 }
