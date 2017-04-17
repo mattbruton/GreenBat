@@ -4,4 +4,12 @@
     min-height: 84.5vh;
     width: 100vw;
     background-color: $light-purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.item {
+    flex: initial;
 }

@@ -1,5 +1,20 @@
 @import '~sass/variables.scss';
 
+.landing__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // align-content: center;
+    @media #{$gt-small} {
+        flex-direction: row;
+    }
+}
+
+.landing__item {
+    flex: initial;
+    align-self: center;
+}
+
 .logo--landing {
     max-height: 300px;
     margin: auto;
