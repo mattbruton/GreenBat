@@ -1,44 +1,44 @@
+import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { ClarityModule } from 'clarity-angular';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { FlexLayoutModule } from '@angular/flex-layout';
-import { ClarityModule } from 'clarity-angular';
+import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardListComponent } from './primary/card-list/card-list.component';
-import { CardDetailComponent } from './primary/card-detail/card-detail.component';
-import { HeaderComponent } from './header/header.component';
-import { PrimaryComponent } from './primary/primary.component';
+import { CardDetailComponent } from './content/card-detail/card-detail.component';
+import { CardListComponent } from './content/card-list/card-list.component';
+import { ContentComponent } from './content/content.component';
+import { FooterColorBorderComponent } from './footer/footer-color-border/footer-color-border.component';
 import { FooterComponent } from './footer/footer.component';
-
-import { DataService } from 'app/shared/data.service';
-import { LandingComponent } from './primary/landing/landing.component';
 import { HeaderBrandingComponent } from './header/header-branding/header-branding.component';
 import { HeaderColorBorderComponent } from './header/header-color-border/header-color-border.component';
-import { FooterColorBorderComponent } from './footer/footer-color-border/footer-color-border.component';
+import { HeaderComponent } from './header/header.component';
+import { SidenavComponent } from './content/sidenav/sidenav.component';
+
+import { DataService } from 'app/shared/data.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardListComponent,
     CardDetailComponent,
-    HeaderComponent,
-    PrimaryComponent,
+    CardListComponent,
+    ContentComponent,
+    FooterColorBorderComponent,
     FooterComponent,
-    LandingComponent,
     HeaderBrandingComponent,
     HeaderColorBorderComponent,
-    FooterColorBorderComponent
+    HeaderComponent,
+    SidenavComponent
   ],
   imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule,
     AppRoutingModule,
+    BrowserModule,
+    ClarityModule.forRoot(),
     FlexLayoutModule,
-    ClarityModule.forRoot()
+    FormsModule,
+    HttpModule
   ],
   providers: [
     DataService

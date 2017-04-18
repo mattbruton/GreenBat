@@ -1,5 +1,12 @@
 @import '~sass/variables.scss';
 
-.primary_container {
-  background-color: $light-purple;
+.container--header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  @media #{$gt-small} {
+    justify-content: start;
+  }
 }
