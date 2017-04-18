@@ -2,11 +2,11 @@ import { Component, Input } from '@angular/core';
 import { Card } from 'app/shared/model';
 
 @Component({
-  selector: 'gb-primary',
-  templateUrl: './primary.component.html',
-  styleUrls: ['./primary.component.scss']
+  selector: 'gb-content',
+  templateUrl: './content.component.html',
+  styleUrls: ['./content.component.scss']
 })
-export class PrimaryComponent {
+export class ContentComponent {
   @Input() selectedCard: Card;
 
   passCardToDetailView(card) {

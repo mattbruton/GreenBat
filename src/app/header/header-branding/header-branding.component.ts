@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header-branding.component.scss']
 })
 export class HeaderBrandingComponent {
-  title: string = 'GreenBat';
+  title = 'GreenBat';
 }

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'gb-header-color-border',
-  templateUrl: './header-color-border.component.html',
+  template: `<div class="bar"></div>`,
   styleUrls: ['./header-color-border.component.scss']
 })
 export class HeaderColorBorderComponent {

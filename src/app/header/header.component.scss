@@ -1,16 +1,12 @@
 @import '~sass/variables.scss';
 
-.header__container {
+.container--header {
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 
   @media #{$gt-small} {
     justify-content: start;
   }
-}
-
-.header__item--branding {
-  flex: initial;
 }

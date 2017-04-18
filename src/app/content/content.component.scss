@@ -1,0 +1,52 @@
+@import '~sass/variables.scss';
+
+.content__container {
+    //Flex Container
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 84.5vh;
+    width: 100vw;
+    background-color: $light-purple;
+    overflow: scroll;
+}
+
+.container--primary {
+    // Flex Container
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    //Flex Item
+    align-self: stretch;
+
+    height: 85.2vh;
+}
+
+.item {
+    //Flex Item
+    flex: initial;
+}
+
+.item--content {
+    //Flex Container
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    //Flex Item
+    flex: 0 1 auto;
+}
+
+.content--item--item {
+    flex: 1 1 50%;
+    background-color: white;
+    align-self: stretch;
+}
+
+.item--sidenav {
+    @extend .item;
+    width: 216px;
+    background-color: white;
+    box-shadow: 0 0 5px 1.5px rgba(0,0,0,.3);
+}
