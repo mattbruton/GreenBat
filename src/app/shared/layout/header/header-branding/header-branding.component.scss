@@ -1,0 +1,35 @@
+@import '~sass/variables.scss';
+
+.container--branding {
+    flex: inital;
+}
+
+.link--icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &:link, &:hover, &:visited {
+        text-decoration: none;
+        flex: inital;
+        padding: 0;
+
+        @media #{$gt-small} {
+            padding: 0 0 0 20px;
+        }
+    }
+
+    & span {
+        color: white;
+        font-size: 24px;
+        padding: 0 10px;
+        @media #{$small}, #{$xsmall} {
+            display: none;
+        }
+    }
+
+    & img {
+        max-height: 45px;
+    }
+}
