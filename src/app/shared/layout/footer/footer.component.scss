@@ -1,10 +1,7 @@
-@import '~sass/variables.scss';
+@import '~sass/variables';
 
 :host {
   background-color: $dark-purple;
   border-top: 0.5vh solid $purple;
   height: 5vh;
-  @media #{$small}, #{$xsmall} {
-    height: 7.5vh;
-  }
 }
