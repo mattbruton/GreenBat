@@ -1,6 +1,10 @@
 @import '~sass/variables.scss';
 
-.container--header {
+:host {
+  border-bottom: 0.5vh solid $purple;
+}
+
+.header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -9,10 +13,4 @@
   @media #{$gt-small} {
     justify-content: start;
   }
-}
-
-.bar {
-    height: 0.5vh;
-    width: 100%;
-    background-color: $purple;
 }

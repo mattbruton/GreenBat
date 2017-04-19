@@ -2,8 +2,8 @@
 
 :host {
   background-color: $dark-purple;
-  height: 5vh;
   border-top: 0.5vh solid $purple;
+  height: 5vh;
   @media #{$small}, #{$xsmall} {
     height: 7.5vh;
   }
