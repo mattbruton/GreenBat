@@ -4,6 +4,7 @@ import { ContentComponent } from './layout/content/content.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HeaderBrandingComponent } from './layout/header/header-branding/header-branding.component';
 import { HeaderComponent } from './layout/header/header.component';
+import { SidenavComponent } from './layout/sidenav/sidenav.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -15,12 +16,14 @@ import { RouterModule } from '@angular/router';
     ContentComponent,
     FooterComponent,
     HeaderBrandingComponent,
-    HeaderComponent
+    HeaderComponent,
+    SidenavComponent
   ],
   exports: [
     ContentComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    SidenavComponent
   ]
 })
 export class SharedModule { }

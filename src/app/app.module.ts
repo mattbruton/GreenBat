@@ -9,14 +9,12 @@ import { SharedModule } from './shared/shared.module';
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { SidenavComponent } from './shared/layout/sidenav/sidenav.component';
 
 import { DataService } from 'app/shared/data.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidenavComponent,
     AboutComponent,
     PageNotFoundComponent
   ],
