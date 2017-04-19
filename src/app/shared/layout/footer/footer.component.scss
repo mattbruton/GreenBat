@@ -1,14 +1,10 @@
 @import '~sass/variables.scss';
 
-.footer {
+:host {
   background-color: $dark-purple;
   height: 5vh;
+  border-top: 0.5vh solid $purple;
   @media #{$small}, #{$xsmall} {
     height: 7.5vh;
   }
-}
-
-.bar {
-  height: 0.5vh;
-  background-color: $purple;
 }
