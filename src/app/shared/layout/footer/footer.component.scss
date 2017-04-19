@@ -1,0 +1,14 @@
+@import '~sass/variables.scss';
+
+.footer {
+  background-color: $dark-purple;
+  height: 5vh;
+  @media #{$small}, #{$xsmall} {
+    height: 7.5vh;
+  }
+}
+
+.bar {
+  height: 0.5vh;
+  background-color: $purple;
+}
