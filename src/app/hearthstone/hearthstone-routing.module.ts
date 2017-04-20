@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HearthstoneSearchComponent } from "./components/hearthstone-search/hearthstone-search.component";
+import { HearthstoneSearchComponent } from "./hearthstone-search/hearthstone-search.component";
 
 const routes: Routes = [
   { path: '', component: HearthstoneSearchComponent }
