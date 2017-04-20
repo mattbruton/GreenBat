@@ -6,7 +6,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const routes: Routes = [
   { path: '', component: AboutComponent },
   { path: 'hearthstone', loadChildren: './hearthstone/hearthstone.module#HearthstoneModule' },
-  { path: '**', component: PageNotFoundComponent }
+  { path: '404', component: PageNotFoundComponent },
+  { path: '**', redirectTo: '404' }
 ];
 
 @NgModule({
