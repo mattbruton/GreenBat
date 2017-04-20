@@ -7,9 +7,9 @@ import { NgModule } from '@angular/core';
 import { LayoutModule } from './layout/layout.module';
 import { HearthstoneModule } from './hearthstone/hearthstone.module';
 
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './components/about/about.component';
 import { AppComponent } from './app.component';
-import { PageNotFoundComponent } from "app/page-not-found/page-not-found.component";
+import { PageNotFoundComponent } from "./components/page-not-found/page-not-found.component";
 
 import { DataService } from 'app/shared/data.service';
 
