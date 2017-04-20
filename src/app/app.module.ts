@@ -4,11 +4,12 @@ import { ClarityModule } from 'clarity-angular';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
-import { SharedModule } from './shared/shared.module';
+import { LayoutModule } from './layout/layout.module';
+import { HearthstoneModule } from './hearthstone/hearthstone.module';
 
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from "app/page-not-found/page-not-found.component";
 
 import { DataService } from 'app/shared/data.service';
 
@@ -23,8 +24,9 @@ import { DataService } from 'app/shared/data.service';
     BrowserModule,
     ClarityModule.forRoot(),
     FormsModule,
+    HearthstoneModule,
     HttpModule,
-    SharedModule
+    LayoutModule
   ],
   providers: [
     DataService

@@ -1,0 +1,6 @@
+@import '~sass/variables';
+
+:host {
+  background-color: $blue--nav;
+  min-height: 6vh;
+}

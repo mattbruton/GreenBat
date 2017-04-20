@@ -1,11 +1,10 @@
 @import '~sass/variables';
-
 .content__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: stretch;
-    min-height: 85.75vh;
+    min-height: 86vh;
     width: 100vw;
     background-color: $light-purple;
     overflow: auto;
@@ -17,7 +16,7 @@
 }
 
 .app-content {
-    background-color: $light-purple;
+    background-color: $slate;
     flex-basis: 100%;
     align-self: stretch;
     display: flex;

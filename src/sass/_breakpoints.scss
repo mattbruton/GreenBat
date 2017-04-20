@@ -1,14 +1,15 @@
 //Screen
+//X-Small
 $xsmall: "screen and (max-width: 575px)";
 $gt-xsmall: "screen and (min-width: 576px)";
-
+//Small
 $small: "screen and (min-width: 576px) and (max-width: 767px)";
 $gt-small: "screen and (min-width: 768px)";
-
+//Medium
 $medium: "screen and (min-width: 768px) and (max-width: 991px)";
 $gt-medium: "screen and (min-width: 992px)";
-
+//Large
 $large: "screen and (min-width: 992px) and (max-width: 1199px)";
 $gt-large: "screen and (min-width: 1200px)";
-
+//X-Large
 $xlarge: "screen and (min-width: 1200px)";

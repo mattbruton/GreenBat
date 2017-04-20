@@ -1,10 +1,13 @@
 @import '~sass/variables';
 
 :host {
-  border-bottom: 0.5vh solid $purple;
+  //border-bottom: 0.5vh solid #A7B3A5;
 }
 
 .header {
+  height: 8vh;
+  max-height: 70px;
+  background-color: $blue--nav;
   display: flex;
   flex-direction: row;
   align-items: center;
