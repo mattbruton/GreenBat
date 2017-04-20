@@ -8,7 +8,7 @@ import { LayoutModule } from './layout/layout.module';
 import { HearthstoneModule } from './hearthstone/hearthstone.module';
 
 import { AboutComponent } from './components/about/about.component';
-import { AppComponent } from './app.component';
+import { AppComponent } from './components/app/app.component';
 import { PageNotFoundComponent } from "./components/page-not-found/page-not-found.component";
 
 import { DataService } from 'app/shared/data.service';
