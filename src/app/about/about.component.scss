@@ -8,11 +8,11 @@
 }
 
 .container__logo {
-    background-color: $light-green;
-    height: 175px;
+    background-color: #6FC4D9;
+    height: 100px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 0 10px 0;
 
@@ -20,10 +20,19 @@
     border-top-right-radius: 10px;
     margin-bottom: 1.25vh;
     box-shadow: 0 4px 2px -4px #333;
+
+    span {
+        margin: 0 20px;
+        flex: inherit;
+        border-bottom: 2px solid #EDF8FA;
+        color: #EDF8FA;
+        font-size: 24px;
+    }
 }
 
 .logo {
-    max-width: 140px;
+    margin: 0 20px;
+    max-width: 70px;
     flex: initial;
     align-self: center;
 }
@@ -36,12 +45,4 @@
     flex: initial;
     justify-content: flex-start;
     box-shadow: 0 4px 2px -4px #333;
-
-    span {
-        margin: 0 20px;
-        flex: inherit;
-        border-bottom: 2px solid #2FAA4A;
-        color: $dark-green;
-        font-size: 24px;
-    }
 }
