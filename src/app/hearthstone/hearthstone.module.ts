@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HearthstoneSearchComponent } from './hearthstone-search/hearthstone-search.component';
-import { Routes, RouterModule } from '@angular/router';
 import { HearthstoneRoutingModule } from './hearthstone-routing.module';
 
 @NgModule({
@@ -10,8 +9,7 @@ import { HearthstoneRoutingModule } from './hearthstone-routing.module';
     CommonModule
   ],
   exports: [
-    HearthstoneSearchComponent,
-    RouterModule
+    HearthstoneSearchComponent
   ],
   declarations: [
     HearthstoneSearchComponent
