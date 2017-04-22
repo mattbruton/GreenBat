@@ -39,6 +39,15 @@ $ui-colors: (
     info    : $victoria
 );
 
+// Media Size Breakpoints
+
+$greater-than-size-breakpoints: (
+    xsmall : 576px,
+    small  : 768px,
+    medium : 992px,
+    large  : 1200px
+);
+
 // Text
 
 $base__font-size : 14px;

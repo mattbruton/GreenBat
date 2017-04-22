@@ -1,0 +1,24 @@
+// Mixins
+
+
+// Greater Than Media Size(pixel width):
+// If media width is greater than specified breakpoint,
+// styles are applied. ex: '@include media-size-greater-than(small)' - >768px
+@mixin media-size-greater-than($map) {
+    @each $size, $breakpoint-in-px in $greater-than-size-breakpoints {
+        @media(min-width: $breakpoint-in-px) { @content; }
+    }
+}
+
+// Background Color Map:
+// If applied to .button and using $ui-colors as the argument,
+// return selectors should be: .button--warning, .button--success, ect.
+// and have the background color value of corresponding theme.
+@mixin bg-colors($map) {
+    @each $theme, $color in $map {
+        &--#{$theme} {
+            background-color: $color;
+        }
+    }
+}
+
