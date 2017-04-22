@@ -1,6 +1,6 @@
-@import '~sass/variables';
+@import '~app/shared/sass/application.scss';
 
 :host {
-  background-color: $blue--nav;
+  background-color: $white;
   min-height: 6vh;
 }
