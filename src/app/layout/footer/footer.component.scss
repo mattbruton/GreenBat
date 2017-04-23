@@ -2,5 +2,10 @@
 
 :host {
   background-color: $white;
-  min-height: 6vh;
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: $chateau-green;
 }

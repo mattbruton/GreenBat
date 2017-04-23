@@ -8,7 +8,7 @@
     align-items: initial;
 }
 
-.container__logo {
+.about__header {
     background-color: $chateau-green;
     height: 100px;
     display: flex;
@@ -22,18 +22,18 @@
 
     span {
         margin: 0 20px;
-        flex: inherit;
         border-bottom: 2px solid #EDF8FA;
         color: #EDF8FA;
         font-size: 24px;
     }
 }
 
-.container__info {
+.about__content {
     height: 300px;
+    border: 2px solid $chateau-green;
+    border-top:none;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    background-color: white;
     flex: initial;
     justify-content: flex-start;
 }

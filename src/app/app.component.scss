@@ -4,13 +4,15 @@
     display: grid;
     grid-template-rows: 9% 87% 4%;
 }
+
 .content__container {
     display: grid;
     grid-template-columns: 216px auto;
     background-color: $white;
+    overflow: auto;
 }
 
-.app-content {
+.app__content {
     background-color: $white;
     display: flex;
     justify-content: center;
