@@ -1,0 +1,10 @@
+@import '~app/shared/sass/application.scss';
+
+.current-page {
+    background-color: #36B35B;
+    color: white !important;
+
+    &:hover {
+        color: #313131 !important;
+    }
+}

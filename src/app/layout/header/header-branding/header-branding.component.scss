@@ -1,35 +1,33 @@
-@import '~sass/variables';
+@import '~app/shared/sass/application.scss';
 
 :host {
     flex: inital;
 }
 
-.link--icon {
+.header-branding__link {
     display: flex;
     justify-content: center;
     align-items: center;
 
+    @include media-width-greater-than(small) {
+        padding: 0 0 0 20px;
+    }
+
     &:link, &:hover, &:visited {
         text-decoration: none;
-        flex: inital;
-        padding: 0;
-
-        @media #{$gt-small} {
-            padding: 0 0 0 20px;
-        }
     }
 }
 
-span {
-    color: white;
+.header-branding__image {
+    max-height: 45px;
+}
+
+.header-branding__text {
+    color: $mine-shaft;
     font-size: 24px;
     padding: 0 10px;
 
     @media #{$small}, #{$xsmall} {
         display: none;
     }
-}
-
-img {
-    max-height: 45px;
 }

@@ -1,0 +1,66 @@
+// Global Config
+
+// Font Stacks
+
+$font-family--primary: Metropolis, "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Base Colors
+
+$black         : #0B0B0B;
+$jaffa         : #F29E49;
+$mine-shaft    : #313131;
+$chateau-green : #36B35B;
+$white         : #FFFFFF;
+
+$color--primary   : $chateau-green;
+$color--secondary : darken($chateau-green, 10%);
+$color--accent    : $jaffa;
+
+$salem       : #118D4F;
+$thunderbird : #B51D23;
+$victoria    : #563D7C;
+$web-orange  : #FFA500;
+
+// UI Colors
+
+$ui-colors: (
+    default : $mine-shaft,
+    success : $salem,
+    error   : $thunderbird,
+    warning : $web-orange,
+    info    : $victoria
+);
+
+// Media Size Breakpoints
+
+
+
+$greater-than-size-breakpoints: (
+    xsmall : 576px,
+    small  : 768px,
+    medium : 992px,
+    large  : 1200px
+);
+
+// Text
+
+$base__font-size : 14px;
+$base__line      : 24px;
+$letter-space    : 1.2px;
+
+// Border radius
+
+$br--default : .2em;
+$br--round   : 50%;
+
+// Path to Assets
+
+$path--rel      : "../../../assets/images";
