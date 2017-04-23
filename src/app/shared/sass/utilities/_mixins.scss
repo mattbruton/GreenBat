@@ -1,10 +1,10 @@
 // Mixins
 
 
-// Greater Than Media Size(pixel width):
+// Greater Than Media Width(pixel width):
 // If media width is greater than specified breakpoint,
 // styles are applied. ex: '@include media-size-greater-than(small)' - >768px
-@mixin media-size-greater-than($map) {
+@mixin media-width-greater-than($map) {
     @each $size, $breakpoint-in-px in $greater-than-size-breakpoints {
         @media(min-width: $breakpoint-in-px) { @content; }
     }

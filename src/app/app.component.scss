@@ -1,26 +1,17 @@
 @import '~app/shared/sass/application.scss';
 
-.content__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: stretch;
-    min-height: 86vh;
-    width: 100vw;
-    background-color: $white;
-    overflow: auto;
+.app {
+    display: grid;
+    grid-template-rows: 9% 87% 4%;
 }
-
-.app-sidenav {
-    width: 216px;
-    background-color: white;
+.content__container {
+    display: grid;
+    grid-template-columns: 216px auto;
+    background-color: $white;
 }
 
 .app-content {
     background-color: $white;
-    flex-basis: 100%;
-    align-self: stretch;
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
