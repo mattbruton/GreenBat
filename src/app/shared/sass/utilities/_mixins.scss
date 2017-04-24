@@ -1,5 +1,10 @@
 // Mixins
 
+// For adding border radius on only the top or bottom of an element.
+@mixin top-or-bottom-bradius($side, $size) {
+    border-#{$side}-right-radius: $size;
+    border-#{$side}-left-radius: $size;
+}
 
 // Greater Than Media Width(pixel width):
 // If media width is greater than specified breakpoint,

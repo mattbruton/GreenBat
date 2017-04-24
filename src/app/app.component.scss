@@ -4,13 +4,25 @@
     display: grid;
     grid-template-rows: 9% 87% 4%;
 }
+
 .content__container {
     display: grid;
-    grid-template-columns: 216px auto;
+    grid-template-columns: 0 auto;
     background-color: $white;
+    overflow: auto;
+    @include media-width-greater-than(small) {
+        grid-template-columns: 210px auto;
+    }
 }
 
-.app-content {
+.app__sidenav {
+    display: hidden;
+    @include media-width-greater-than(small) {
+        display: flex;
+    }
+}
+
+.app__content {
     background-color: $white;
     display: flex;
     justify-content: center;

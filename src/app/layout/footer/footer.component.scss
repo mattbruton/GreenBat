@@ -1,6 +1,11 @@
 @import '~app/shared/sass/application.scss';
 
 :host {
-  background-color: $white;
-  min-height: 6vh;
+  background-color: $chateau-green;
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: $white;
 }
