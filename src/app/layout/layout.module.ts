@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { ClarityModule } from 'clarity-angular';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderBrandingComponent } from './header/header-branding/header-branding.component';
@@ -8,6 +9,7 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
+    ClarityModule,
     CommonModule,
     RouterModule
   ],

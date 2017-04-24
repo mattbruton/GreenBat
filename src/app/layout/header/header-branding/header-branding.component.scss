@@ -23,11 +23,12 @@
 }
 
 .header-branding__text {
+    display: none;
     color: $mine-shaft;
     font-size: 24px;
     padding: 0 10px;
 
-    @media #{$small}, #{$xsmall} {
-        display: none;
+    @include media-width-greater-than(small) {
+        display: flex;
     }
 }

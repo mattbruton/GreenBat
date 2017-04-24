@@ -6,9 +6,27 @@
   background-color: $white;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
-  @media #{$gt-small} {
+  @include media-width-greater-than(small) {
     justify-content: start;
+  }
+}
+
+gb-header-branding {
+  margin: 0 20px;
+  @include media-width-greater-than(small) {
+    margin: none;
+  }
+}
+
+.hamburger {
+  padding: 2px;
+  border: 2px solid $mine-shaft;
+  border-radius: 3px;
+  color: darken($chateau-green, 5%);
+  margin: 0 20px;
+  @include media-width-greater-than(small) {
+    display: none;
   }
 }
